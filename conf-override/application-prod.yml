@@ -1,0 +1,28 @@
+log: "logfmt"
+log_level: "debug"
+address: ""
+port: ""
+salt: "our salt to beused"
+encryptionkey: "mdshortsencryptionkeyss" #must be 16 24  or 32 for aes128 aes192 or aes256 respectively 
+tokensecret: "tokensecret"
+mongodb:
+  host: "localhost:27017"
+  db: "mongodb"
+  username: ""
+  password:  ""
+  dbname: "rxdata"
+  usercollectionname: "users"
+  tokensecret: "AAAA"
+aws:
+  region: ""
+  bucket: ""
+  aws_access_key_id: ""
+  aws_secret_access_key: ""
+email:
+  from: ""
+website:
+  url: ""
+api:
+  url: ""
+app:
+  env_prefix: ''

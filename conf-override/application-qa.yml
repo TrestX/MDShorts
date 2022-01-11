@@ -1,0 +1,63 @@
+log: "logfmt"
+log_level: "debug"
+address: ""
+port: ""
+salt: "our salt to beused"
+encryptionkey: "mdshortsencryptionkeysss" #must be 16 24  or 32 for aes128 aes192 or aes256 respectively 
+tokensecret: "tokensecret"
+mongodb:
+  host: "mdshorts.ecrcq.mongodb.net"
+  db: "mongodb+srv"
+  username: "mdshorts_qa_user"
+  password: "CHQFaW5cMFmVIQ9B"
+  dbname: "mdshorts"
+  usercollectionname: "users"
+  tokensecret: "AAAAAAAAAAA"
+aws:
+  region: "us-east-1"
+  bucket: "mdshorts-assets"
+  aws_access_key_id: "AKIAWJRUIZJTXB2BV32X"
+  aws_secret_access_key: "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"
+email:
+  from: "update@mdshorts.com"
+  subject: "Congratulations on registering with mdShorts"
+  initial: "<div class='row'><img src='https://5000-6000bucket.s3.ap-south-1.amazonaws.com/md_shorts.png' style='width: 130px;display: block;margin-left: auto;margin-right: auto;margin-top: 30px;'/><h1 style='font-size: 25px;color: #175296;font-weight: 500;font-family: sans-serif;text-align: center;margin-top: 70px;'>Thanks for signing up,<br />"
+  mid: "</h1><h1 style='font-size: 12px;color: #a1a5aa;font-weight: 500;font-family: sans-serif;text-align: center;margin-top: 20px;'>We are happy that you signed up for mdshorts.<br /></h1><h1 style='font-size: 12px;color: #a1a5aa;font-weight: 500;font-family: sans-serif;text-align: center;margin-top: 10px;'>Please verify your email address to get access to the<br />premium healthcare news reading experience</h1><a style='padding: 12px 26px 12px 26px;border-radius: 3px;cursor: pointer;text-align: center;background-color: #175296;font-family: sans-serif;color: white;font-weight: 600;font-size: 15px;display: block;margin-left: auto;max-width: 150px;margin-right: auto;margin-top: 35px;'"
+  end: "<h1 style='font-size: 12px;color: #a1a5aa;font-weight: 500;font-family: sans-serif;text-align: center;margin-top: 20px;'>Welcome to the <span style='color: #175296'>mdshorts!</span><br />The mdshorts team</h1><div style='background-color: #e1e6ec;padding: 10px 10px 10px 10px;margin-top: 70px;'><h1 style='font-size: 14px;color: #a1a5aa;font-weight: 500;font-family: sans-serif;text-align: center;'>Stay in touch</h1><div style='display: block;margin-left: auto;max-width: 120px;margin-right: auto; margin-top: 20px;'><a href='https://www.facebook.com/Mdshortsapp' style='display: inline; margin-left: 6px'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5zB4b4hobVU9YVNhH7mh507OaQLfVNSdEDU9hz9iOe3S3USTWJhW4ct9SWPKQT1qGCJQ&usqp=CAU' width='37px' /></a><a href='' style='display: inline; margin-left: 6px'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpPhoiM18qW0C6eFAXsxECO-pGzReXVJGEdQtcmYzCnqNL_FyWVk2K_he4VlxPO2KjcQ&usqp=CAU' width='27px' /></a><a href='https://www.linkedin.com/company/mdshorts/' style='display: inline; margin-left: 6px'><img src='https://www.kindpng.com/picc/m/363-3632986_logo-linkedin-png-rond-transparent-png.png' width='27px' /></a></div><h1 style='text-align: center;text-decoration:none;font-size: 10px;color: #a1a5aa;font-weight: 500;margin-top: 20px;font-family: sans-serif;'><a href='https://www.mdshorts.com/privacy_policy'>Contact us</a> | <a href='https://docs.google.com/document/d/e/2PACX-1vSaOwx97sJ9ffVqGfay0wMmAVMx50PbLgvl4q2DmOleWr8zR0ZxBMpgqq5aAnoYfA/pub?embedded=true\'>Privacy Policy</a> | <a href=''>Unsubscribe</a></h1></div></div>"
+pemail:
+  from: "update@mdshorts.com"
+  subject: "Password Changed"
+  logo: ""
+  template: "<h1 style='font-size:12px;color:black;font-weight:400'>Your password was changed recently. If it was not you please click on the link below.</h1>"
+  end: "<br/><br/><h1 style='font-size:12px;color:darkblue'>Team mdShorts</h1><img src='https://5000-6000bucket.s3.ap-south-1.amazonaws.com/md_shorts.png' style='width:100px;display:block;'/><br/>"
+emaillogin:
+  from: "update@mdshorts.com"
+  signupsubject: "Congratulations on registering with mdShorts"
+  loginsubject: "mdshorts login assistance"
+  initial: "<div class='row'><img src='https://5000-6000bucket.s3.ap-south-1.amazonaws.com/md_shorts.png' style='width: 130px;display: block;margin-left:auto;margin-right: auto;margin-top: 30px;'/>"
+  greettop: "<h1 style='font-size: 25px;color: #175296;font-weight: 500;font-family: sans-serif;text-align: center;margin-top: 60px;'>Thanks for signing up, <h1 style='font-size: 19px;color: #175296;font-weight: 700;font-family: sans-serif;text-align: center;margin-top:5px;'>"
+  logintop: "<h1 style='font-size: 25px;color: #175296;font-weight: 500;font-family: sans-serif;text-align: center;margin-top: 50px;'>Hi, <h1 style='font-size: 25px;color: #175296;font-weight: 700;font-family: sans-serif;text-align: center;margin-top:5px;'>"
+  mid: "</h1></h1><h1 style='font-size: 13px;color: black;font-weight: 500;font-family: sans-serif;text-align: center;margin-top: 20px;'>To authenticate, please use the following One Time Password(OTP):<br />"
+  verifcode: "<h1 style='font-size: 16px;color:black;font-family: sans-serif;text-align:center;font-family:800'>"
+  greetmsg: "<h1 style='font-size: 12px;color: #a1a5aa;font-weight: 500;font-family: sans-serif;text-align: center;margin-top: 20px;'>Welcome to the <span style='color: #175296'>mdshorts!</span><br />The mdshorts team</h1>"
+  end: "<div style='background-color: #e1e6ec;padding: 10px 10px 10px 10px;margin-top: 70px;'><h1 style='font-size: 14px;color: #a1a5aa;font-weight: 500;font-family: sans-serif;text-align: center;'>Stay in touch</h1><div style='display: block;margin-left: auto;max-width: 120px;margin-right: auto; margin-top: 20px;'><a href='https://www.facebook.com/Mdshortsapp' style='display: inline; margin-left: 6px'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5zB4b4hobVU9YVNhH7mh507OaQLfVNSdEDU9hz9iOe3S3USTWJhW4ct9SWPKQT1qGCJQ&usqp=CAU' width='37px' /></a><a href='' style='display: inline; margin-left: 6px'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpPhoiM18qW0C6eFAXsxECO-pGzReXVJGEdQtcmYzCnqNL_FyWVk2K_he4VlxPO2KjcQ&usqp=CAU' width='27px' /></a><a href='https://www.linkedin.com/company/mdshorts/' style='display: inline; margin-left: 6px'><img src='https://www.kindpng.com/picc/m/363-3632986_logo-linkedin-png-rond-transparent-png.png' width='27px' /></a></div><h1 style='text-align: center;text-decoration:none;font-size: 10px;color: #a1a5aa;font-weight: 500;margin-top: 20px;font-family: sans-serif;'><a href='https://www.mdshorts.com/privacy_policy'>Contact us</a> | <a href='https://docs.google.com/document/d/e/2PACX-1vSaOwx97sJ9ffVqGfay0wMmAVMx50PbLgvl4q2DmOleWr8zR0ZxBMpgqq5aAnoYfA/pub?embedded=true\'>Privacy Policy</a> | <a href=''>Unsubscribe</a></h1></div></div>"
+website:
+  url: "www.mdshorts.com"
+api:
+  url: ""
+app:
+  env_prefix: ''
+clicksend:
+  username: "mdshorts"
+  password: "Y#uZtw##8T!ujHX"
+  mbody: "is your verification code for mdshorts app."
+  postApi: "https://rest.clicksend.com/v3/sms/send"
+newsapi:
+  key: "59fc1f305ae44f79bb707bb820223077"
+  countries: "us,gb,in,au,nz,ca"
+featuredconf:
+  minbookmarks: 10
+  nimtimeSpend: 2729
+notification:
+  body: "New Stories for "
+  title: "New Stories for "
